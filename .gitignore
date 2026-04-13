@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.local.json
+samples/raw/
+samples/processed/
+*.wav
+*.mp3
