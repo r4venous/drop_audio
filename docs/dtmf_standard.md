@@ -1,0 +1,25 @@
+# DTMF — Dual-Tone Multi-Frequency Reference
+
+Standard DTMF uses two simultaneous sine tones: one from the row group
+(697, 770, 852, 941 Hz) and one from the column group (1209, 1336, 1477, 1633 Hz).
+
+| Key | Row Hz | Col Hz |
+|-----|--------|--------|
+|  1  |  697   |  1209  |
+|  2  |  697   |  1336  |
+|  3  |  697   |  1477  |
+|  A  |  697   |  1633  |
+|  4  |  770   |  1209  |
+|  5  |  770   |  1336  |
+|  6  |  770   |  1477  |
+|  B  |  770   |  1633  |
+|  7  |  852   |  1209  |
+|  8  |  852   |  1336  |
+|  9  |  852   |  1477  |
+|  C  |  852   |  1633  |
+|  *  |  941   |  1209  |
+|  0  |  941   |  1336  |
+|  #  |  941   |  1477  |
+|  D  |  941   |  1633  |
+
+Detection window: 150 ms. Inter-digit gap: 60 ms.
